@@ -3,9 +3,9 @@ const BASE_URL = `https://superheroapi.com/api.php/${API_KEY}`;
 
 const randomHero = () => {
     const id = parseInt(Math.random() * 731 + 1);
-    console.log('chosen ', id)
-    return id
-}
+    console.log('chosen ', id);
+    return id;
+};
 
 const fetchHero = async (id) => {
     try {
