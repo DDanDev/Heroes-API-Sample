@@ -1,4 +1,4 @@
-const API_KEY = 'HIDDEN';
+const API_KEY = '10076999112374953';
 const BASE_URL = `https://superheroapi.com/api.php/${API_KEY}`;
 
 const randomHero = () => {
